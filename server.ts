@@ -1,6 +1,7 @@
 import express, { Application } from "express";
 import cors from "cors";
 import dbConnection from "./db/index"
+import { User } from "./models/User";
 
 
 const app : Application = express();
