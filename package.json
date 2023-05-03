@@ -1,0 +1,35 @@
+{
+  "name": "solo_eccomerce",
+  "version": "1.0.0",
+  "description": "A new project",
+  "main": "server.ts",
+  "scripts": {
+    "start": "nodemon server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasInchauspe2/Solo_Eccomerce.git"
+  },
+  "author": "NicholasInchauspe2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholasInchauspe2/Solo_Eccomerce/issues"
+  },
+  "homepage": "https://github.com/NicholasInchauspe2/Solo_Eccomerce#readme",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
+    "node": "^20.0.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
